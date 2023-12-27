@@ -1,0 +1,15 @@
+{
+    // "image": "mcr.microsoft.com/devcontainers/rust:latest",
+    "build": {
+        "dockerfile": "../Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "rust-lang.rust-analyzer",
+                "tamasfe.even-better-toml"
+            ]
+        }
+    },
+    "postCreateCommand": "rustup component add rustfmt"
+}
