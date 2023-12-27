@@ -1,6 +1,6 @@
-use adder;
+use cli_interface;
 
 #[test]
-fn it_adds_two() {
-    assert_eq!(15, adder::funcs::testare(5));
+fn integration_test_testare() {
+    assert_eq!(15, cli_interface::funcs::testare(5));
 }
