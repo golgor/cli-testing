@@ -1,4 +1,4 @@
-pub const VARIABEL: i32 = 5;
+const VARIABEL: i32 = 5;
 
 pub fn testare(z: i32) -> i32 {
     5 + z + VARIABEL
